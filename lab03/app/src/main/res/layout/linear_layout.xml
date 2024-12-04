@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="lap3_PS34567"
+        android:padding="16dp"
+        android:background="#2A3566"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="1"
+            android:padding="63dp"
+            android:background="#00967D"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="2"
+        android:padding="63dp"
+        android:background="#FFC107"
+        android:textSize="20dp"
+            android:textColor="#FFFFFF"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="3"
+            android:padding="63dp"
+            android:background="#FF5722"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:padding="60dp"
+        android:background="#2196F3"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:padding="60dp"
+        android:background="#E91E63"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="168dp"
+        android:text="6"
+        android:padding="60dp"
+        android:background="#4CAF50"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>
