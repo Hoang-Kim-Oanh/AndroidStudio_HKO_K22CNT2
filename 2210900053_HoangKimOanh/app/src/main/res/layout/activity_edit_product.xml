@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMaSP53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sản phẩm"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/edtTenSP53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"/>
+
+    <EditText
+        android:id="@+id/edtSoLuong53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtDonGia53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đơn giá"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnSave53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:onClick="saveProduct"/>
+
+    <Button
+        android:id="@+id/btnCancel53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:onClick="cancel"/>
+</LinearLayout>

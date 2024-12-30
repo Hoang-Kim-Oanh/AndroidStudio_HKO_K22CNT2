@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Tên sản phẩm -->
+    <TextView
+        android:id="@+id/txtTenSP53"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Tên sản phẩm 53"
+        android:textSize="16sp" />
+
+    <!-- Số lượng -->
+    <TextView
+        android:id="@+id/txtSoLuong53"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Số lượng 53"
+        android:textSize="16sp" />
+
+    <!-- Đơn giá -->
+    <TextView
+        android:id="@+id/txtDonGia53"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Đơn giá 53"
+        android:textSize="16sp" />
+
+    <!-- Thành tiền -->
+    <TextView
+        android:id="@+id/txtThanhTien53"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thành tiền 53"
+        android:textSize="16sp" />
+
+    <!-- Nút sửa và nút xóa -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp">
+
+        <!-- Button Sửa -->
+        <Button
+            android:id="@+id/btnEditProduct53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa 53"
+            android:layout_marginRight="8dp" />
+
+        <!-- Button Xóa -->
+        <Button
+            android:id="@+id/btnDeleteProduct53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa 53" />
+    </LinearLayout>
+
+</LinearLayout>

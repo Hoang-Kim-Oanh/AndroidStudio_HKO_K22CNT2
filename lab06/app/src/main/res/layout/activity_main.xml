@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sản Phẩm"
+        android:gravity="center"
+        android:background="#FFFF99"
+        android:textSize="30dp"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Danh mục"
+                />
+            <Spinner
+                android:id="@+id/spnSanpham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã Sản Phẩm:"
+                />
+            <EditText
+                android:id="@+id/editmaSp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên Sản Phẩm:"
+                />
+            <EditText
+                android:id="@+id/editTenSp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá Sản Phẩm:"
+                />
+            <EditText
+                android:id="@+id/editgiaSp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm Sản Phẩm"
+                android:layout_column="1"
+                android:id="@+id/btnThem"
+
+                />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách sản phẩm theo danh mục"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#097C70"
+        android:textColor="@color/white"
+        />
+    <ListView
+        android:id="@+id/lvSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
